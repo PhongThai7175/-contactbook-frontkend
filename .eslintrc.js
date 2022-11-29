@@ -1,5 +1,5 @@
-module.exports = {
+module.exports = { 
     rules: {
-        'vue/no-reserved-component-names': 'off',
-        },
-};
+    'vue/no-reserved-component-names': 'off',
+    },
+    };
