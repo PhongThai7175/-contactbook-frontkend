@@ -2,7 +2,7 @@ import axios from 'axios';
 const url = import.meta.env.VITE_APP_API_URL;
 class ContactService {
 constructor() {
-this.baseUrl = `http://localhost:3000/api/contacts`;
+this.baseUrl = `localhost:3000/api/contacts`;
 this.api = axios.create({
 headers: {
 'Content-Type': 'application/json',
